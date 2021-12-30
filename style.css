@@ -67,6 +67,7 @@ header.shadow {
 }
 .navbar a:hover {
   color: var(--hover);
+  transition: 0.2s;
 }
 #menu-icon {
   font-size: 24px;
@@ -113,6 +114,7 @@ header.shadow {
 }
 .btn:hover {
   background: var(--hover);
+  transition: 0.5s;
 }
 .scroll-down {
   position: absolute;
@@ -211,7 +213,7 @@ span {
   width: 75%;
 }
 .react-bar {
-  width: 91%;
+  width: 42%;
 }
 
 form input,
