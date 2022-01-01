@@ -95,9 +95,12 @@ header.shadow {
 .home-text h1 {
   font-size: var(--big-font);
 }
-.home-text h2 {
+.home-text strong {
   font-size: 1.1rem;
   font-weight: 400;
+}
+.home-text strong span{
+  color: #345c00;
 }
 .home-text p {
   font-size: var(--p-font);

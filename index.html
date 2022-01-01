@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <title>Gokoscope</title>
     <!-- Link To CSS -->
     <link rel="stylesheet" href="style.css">
@@ -31,7 +32,7 @@
     <section class="home" id="home">
         <div class="home-text">
             <h1>Gokoscope</h1>
-            <h2>App Developer & Game Designer</h2>
+            <strong><span class="type"></span></st>
             <p>Hakkımda daha fazla bilgi için aşağı kaydır! <br> Projelerime göz atmak <br> için bana ulaş.</p>
             <a href="https://discord.com/users/505730361175703562" target="_blank" class="btn">İletişim</a>
         </div>
@@ -99,8 +100,16 @@
         <h2>Gokoscope</h2>
     </div>
 
-
-
+    <!--type.js-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!--script-->
+    <script>
+    var typed = new Typed('.type', {
+        strings: ['App Designer', 'Game Designer', 'UI Designer'],
+        typeSpeed:100,
+        backSpeed:70,
+        loop:true,
+      });</script>
     <!-- Link To JS -->
     <script src="main.js"></script>
 </body>
